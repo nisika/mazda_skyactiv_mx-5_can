@@ -10,9 +10,11 @@ sparkfun
 Arduino
 red board turbo
 
+canシールド
 can-bus shield
 
 uno用ケース
-case is uno
+case
 
-can-bus
+OBD2からDサブ9ピンにする故障診断器用ケーブル
+OBD2-Dsub9pin cable
