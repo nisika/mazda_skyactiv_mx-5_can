@@ -1,6 +1,6 @@
 # mazda_skyactive_mx-5_can
 
-[SSD1309 128x64 1.56 Transparent OLED](#29-mar-2020ssd1309-128x64-156-transparent-oled)
+SSD1309 128x64 1.56 Transparent OLED
 [DEMO_RUN_img](https://imgur.com/gallery/VnoS7io)
 
 準備する物
