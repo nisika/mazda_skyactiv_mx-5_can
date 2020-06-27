@@ -1,6 +1,10 @@
 //ND MX-5 ROADSTER Transparent Graphical OLED HUD
 //programming by nisi.from japan.
 
+//Commercial use of this program is prohibited.
+//This program is free to use and change for ND Roadster (MX-5 Miata) owners.
+// If you are a Mazda or SkyActive car owner who wants to use this program, please contact us.
+//Please enjoy open drive with reference to this program.
 
 // <--- メインの宣言開始
 
