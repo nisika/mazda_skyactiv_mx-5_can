@@ -81,3 +81,9 @@ OBD2 connector of the ND Roadster and the CAN-BUS shield
 Red board turboの充放電回路によるCAN-BUSシールド動作不良を無効にするため、DC5Vをカットし、端子にV-INを繋ぐ
 To disable the CAN-BUS shield operation failure due to the charge/discharge circuit of the 
 Red board turbo, cut DC5V and connect V-IN to the terminal
+
+CANデータの参考サイト
+
+https://docs.google.com/spreadsheets/d/1uqwIMof9DdaEv0EkWHXe70XNGt0FGeDxpbMAgfKbbdk/edit#gid=0
+
+
