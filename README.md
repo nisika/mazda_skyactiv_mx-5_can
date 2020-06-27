@@ -83,7 +83,8 @@ To disable the CAN-BUS shield operation failure due to the charge/discharge circ
 Red board turbo, cut DC5V and connect V-IN to the terminal
 
 CANデータの参考サイト
+Reference site for CAN data
 
 https://docs.google.com/spreadsheets/d/1uqwIMof9DdaEv0EkWHXe70XNGt0FGeDxpbMAgfKbbdk/edit#gid=0
 
-
+https://github.com/majbthrd/MazdaCANbus
