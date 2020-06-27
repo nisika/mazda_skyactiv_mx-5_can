@@ -1,7 +1,7 @@
 # mazda_skyactive_mx-5_can
 
 SSD1309 128x64 1.56 Transparent OLED
-[RUN_img](https://imgur.com/gallery/8cYCE9L)
+[【RUN_img】](https://imgur.com/gallery/8cYCE9L)
 
 準備する物
 Things to prepare
