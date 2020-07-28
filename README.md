@@ -43,6 +43,7 @@ Mini-DIN connector 6-pin (PS/2 connector)
 Mini-DINケーブル 6ピン(PS/2ケーブル オス-オス)
 Mini-DIN cable 6-pin (PS/2 cable male-male)
 
+
 ライブラリの準備
 Library preparation
 
@@ -55,20 +56,8 @@ coryjfowler's MCP_CAN_lib
 全ての利用ライブラリを検索し、Serial.print()をSerial【USB】.print()に変更
 Search all used libraries and change Serial.print() to Serial[USB].print()
 
-uno互換にするため、D11 D12 D13をSPI通信で使うように、variant.hの以下の部分を修正
-Modified the following parts of variant.h to use D11 D12 D13 for SPI communication to 
-be compatible with uno.
-
-/* SPI Interfaces */
-#define SPI_INTERFACES_COUNT 1
-
-#define PIN_SPI_MISO         【(34u)】
-#define PIN_SPI_MOSI         【(35u)】
-#define PIN_SPI_SCK          【(37u)】
-#define PERIPH_SPI           【sercom1】
-#define PAD_SPI_TX           【SPI_PAD_0_SCK_1】
-#define PAD_SPI_RX           【SERCOM_RX_PAD_3】
-Mini-DIN cable 6-pin (PS/2 cable male-male)
+SPI通信で使う配線(MISO、MOSI、SCLK、SS、INT)にレベルシフタを設置
+Install level shifters on the wiring used for SPI communication (MISO, MOSI, SCLK, SS, INT)
 
 ハードウェアの修正
 Hardware fix
