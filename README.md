@@ -1,5 +1,6 @@
 # mazda_skyactive_mx-5_can
 
+Rev.1
 SSD1309 128x64 1.56 Transparent OLED
 [【RUN_img】](https://imgur.com/gallery/8cYCE9L)
 
@@ -73,6 +74,20 @@ OBD2 connector of the ND Roadster and the CAN-BUS shield
 Red board turboの充放電回路によるCAN-BUSシールド動作不良を無効にするため、DC5Vをカットし、端子にV-INを繋ぐ
 To disable the CAN-BUS shield operation failure due to the charge/discharge circuit of the 
 Red board turbo, cut DC5V and connect V-IN to the terminal
+
+Rev.2
+マイコン: Arduino MKR Zero I2S オーディオ/音楽 マイクロコントローラ
+CANシールド: Arduino MKR CAN シールド
+マイコンケース: Raspberry Pi 4Bケース RPI-4B-1F
+表示部: SparkFun 128x64 透明グラフィカルOLEDブレイクアウト基板（Qwiic）
+表示部土台: Emmabin スマホ車載ホルダー
+OBD2ケーブル: uxcell ダイアグノスチック エクステンションコネクタケーブル OBD2 シリアル RS232 16ピン-9ピン 100cm
+L型OBD2延長ケーブル: OBD2 延長ケーブル 60cm　フラットケーブル
+I2C延長チップ: アナログデバイセズ製LTC4315IMS
+I2C延長チップ基板: MSOP-12 TO DIP-16 SMT ADAPTER IPC0078
+
+ハードウェアの修正Hardware fix
+無し
 
 CANデータの参考サイト
 Reference site for CAN data
